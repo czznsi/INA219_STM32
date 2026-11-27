@@ -1,6 +1,6 @@
 # INA219 current and power logger
 
-This STM32CubeIDE project measures battery-side current and input power for a DC/DC converter operating in bursts. By default, a NUCLEO-L452RE-P records **30,000 samples at 4 ms intervals** (250 samples/s for 120 s). A Windows tool downloads the completed capture over ST-LINK, saves the samples as CSV, and plots the current waveform.
+This STM32CubeIDE project measures battery-side current and input power for a DC/DC converter operating in bursts. By default, a NUCLEO-L452RE-P records **30,000 samples at 4 ms intervals** (250 samples/s for 120 s). A Windows tool downloads the completed capture over ST-LINK, saves the samples as CSV, and plots the current waveform. It is helpful to determine inrush/magnetization average current and average energy used by secondary load on DC/DC converter, especially when trying to optimise standby readiness that keeps DC/DC on for a period of time, and thus lowers power usage in physical standby battery applications.
 
 ## Bench connections
 
