@@ -5,6 +5,9 @@
 
 # Local INA219 captures and intermediate ST-LINK dumps
 /.ina219-*/
+/INA219_capture_*.csv
+/INA219_capture_*.png
+/INA219_latest.png
 /INA219_zajem_*.csv
 /INA219_zajem_*.png
 /INA219_zadnja.png
