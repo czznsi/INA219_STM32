@@ -1,0 +1,15 @@
+# STM32CubeIDE build output and workspace state
+/Debug/
+/Release/
+/.metadata/
+
+# Local INA219 captures and intermediate ST-LINK dumps
+/.ina219-*/
+/INA219_zajem_*.csv
+/INA219_zajem_*.png
+/INA219_zadnja.png
+__pycache__/
+*.pyc
+
+# Local Codex settings
+/.codex/
